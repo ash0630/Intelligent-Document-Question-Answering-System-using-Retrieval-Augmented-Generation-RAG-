@@ -7,7 +7,7 @@ from google import genai
 # =========================
 # Gemini Client
 # =========================
-client = genai.Client(api_key="AIzaSyAzxzQdZzifdN0Rb6XoE0tC68mDewPPjMo")
+client = genai.Client(api_key="*****")
 
 # =========================
 # Pick a Supported Text Model Automatically
@@ -116,5 +116,6 @@ def chat():
 # =========================
 if __name__ == "__main__":
     chat()
+
 
 
